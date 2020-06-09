@@ -1,0 +1,79 @@
+{
+  "alps": {
+    "version": "1.0",
+    "descriptor": [
+      {
+        "id": "hopType-representation",
+        "href": "http://localhost:8080/profile/hopTypes",
+        "descriptor": [
+          { "name": "name", "type": "SEMANTIC" },
+          { "name": "manufacturer", "type": "SEMANTIC" },
+          { "name": "country", "type": "SEMANTIC" },
+          {
+            "name": "format",
+            "type": "SEMANTIC",
+            "doc": { "format": "TEXT", "value": "PELLETS, EXTRACT, WHOLE" }
+          }
+        ]
+      },
+      {
+        "id": "create-hopTypes",
+        "name": "hopTypes",
+        "type": "UNSAFE",
+        "descriptor": [],
+        "rt": "#hopType-representation"
+      },
+      {
+        "id": "get-hopTypes",
+        "name": "hopTypes",
+        "type": "SAFE",
+        "descriptor": [],
+        "rt": "#hopType-representation"
+      },
+      {
+        "id": "delete-hopType",
+        "name": "hopType",
+        "type": "IDEMPOTENT",
+        "descriptor": [],
+        "rt": "#hopType-representation"
+      },
+      {
+        "id": "patch-hopType",
+        "name": "hopType",
+        "type": "UNSAFE",
+        "descriptor": [],
+        "rt": "#hopType-representation"
+      },
+      {
+        "id": "get-hopType",
+        "name": "hopType",
+        "type": "SAFE",
+        "descriptor": [],
+        "rt": "#hopType-representation"
+      },
+      {
+        "id": "update-hopType",
+        "name": "hopType",
+        "type": "IDEMPOTENT",
+        "descriptor": [],
+        "rt": "#hopType-representation"
+      }
+    ]
+  }
+
+  {
+    "id": "hopType-representation",
+    "href": "http://localhost:8080/profile/hopTypes",
+    "descriptor": [
+      { "name": { "name": "format" }, "type": "SEMANTIC" },
+      { "name": "manufacturer", "type": "SEMANTIC" },
+      { "name": "country", "type": "SEMANTIC" },
+      {
+        "name": "format",
+        "type": "SEMANTIC",
+        "doc": { "format": "TEXT", "value": "PELLETS, EXTRACT, WHOLE" }
+      }
+    ]
+  }
+  
+}

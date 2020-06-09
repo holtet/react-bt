@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has correct snapshot 1`] = `
+Array [
+  <table
+    className="table table-sm"
+  >
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Manufacturer
+        </th>
+        <th />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a
+            href="/yeasttype/0"
+            onClick={[Function]}
+          >
+            Saf5
+          </a>
+        </td>
+        <td>
+          Safale
+        </td>
+        <td>
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="/yeasttype/1"
+            onClick={[Function]}
+          >
+            WLP400
+          </a>
+        </td>
+        <td>
+          WyEast
+        </td>
+        <td>
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <button
+    className="btn btn-primary"
+    onClick={[MockFunction]}
+    style={
+      Object {
+        "marginBottom": 20,
+      }
+    }
+  >
+    Add
+  </button>,
+]
+`;
+
+exports[`has correct snapshot with redirect 1`] = `
+Array [
+  <table
+    className="table table-sm"
+  >
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Manufacturer
+        </th>
+        <th />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a
+            href="/yeasttype/0"
+            onClick={[Function]}
+          >
+            Saf5
+          </a>
+        </td>
+        <td>
+          Safale
+        </td>
+        <td>
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="/yeasttype/1"
+            onClick={[Function]}
+          >
+            WLP400
+          </a>
+        </td>
+        <td>
+          WyEast
+        </td>
+        <td>
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <button
+    className="btn btn-primary"
+    onClick={[MockFunction]}
+    style={
+      Object {
+        "marginBottom": 20,
+      }
+    }
+  >
+    Add
+  </button>,
+]
+`;

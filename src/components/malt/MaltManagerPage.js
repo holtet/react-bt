@@ -8,10 +8,6 @@ import { toast } from 'react-toastify';
 import ItemForm from '../common/ItemForm';
 import { malt as maltTemplate } from '../../tools/emptyObjects';
 
-function capitalizeFirst(string) {
-  if (string == undefined) return undefined;
-  return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
-}
 function MaltManagerPage({
   itemTypes,
   items,

@@ -79,7 +79,6 @@ function MaltManagerPage({
   }
 
   const fields = [
-    // { name: 'Name', field: 'name', type: 'text' },
     { name: 'Grams', field: 'grams', type: 'text' },
     { name: 'Comments', field: 'comments', type: 'textArea' },
     {
